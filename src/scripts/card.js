@@ -1,9 +1,3 @@
-import Swiper, { Navigation, Pagination, Autoplay } from 'swiper';
-import 'swiper/swiper-bundle.css';
-
-// configure Swiper to use modulesj
-Swiper.use([Autoplay]);
-
 const swiper = new Swiper('.swiper-container', {
 	loop: true,
 	slidesPerView: 1,

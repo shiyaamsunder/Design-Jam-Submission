@@ -19,7 +19,9 @@
 			href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Inter:wght@500;600&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- Swiper CDN -->
+<link rel="stylesheet"  href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 		<!-- ICON -->
 		<link rel="icon" href="./assets/logo.svg" />
@@ -27,7 +29,7 @@
 
 
 		
-		<script src="./scripts/app.js" defer></script>
+		
 		<link rel="stylesheet" href="./styles/index.css" />
 	</head>
 	<body>
@@ -61,10 +63,10 @@
 							><a href="#menu" class="header__nav-link">Menu</a>
 						<a href="#about" class="header__nav-link">About</a>
 					</nav>
-					<img class="header__cart" src="./assets/cart.svg" alt="" />
+					<img class="header__cart" src="./assets/cart.svg" alt="carticon" />
 				</div>
 				<div class="burger">
-					<img src="./assets/menu.svg" alt="" />
+					<img src="./assets/menu.svg" alt="menuicon" />
 				</div>
 			</div>
 		</header>
@@ -90,7 +92,7 @@
 						<img
 							class="landing__image"
 							src="./assets/landing/589.png"
-							alt=""
+							alt="big pink donut with a circle in back"
 						/>
 					</div>
 				</div>
@@ -110,7 +112,7 @@
 
 							<div class="swiper-slide menu__card-wrapper">
 								<div class="menu__item-image">
-								<img src="./assets/menu/01.png" alt="">
+								<img src="./assets/menu/01.png" alt="donut">
 								</div>
 								
 								<div class="menu__card">
@@ -151,7 +153,7 @@
 								</div>
 								<div class="swiper-slide menu__card-wrapper">
 									<div class="menu__item-image">
-									<img src="./assets/menu/02.png" alt="">
+									<img src="./assets/menu/02.png" alt="donut">
 									</div>
 									
 									<div class="menu__card">
@@ -190,7 +192,7 @@
 									</div>
 									<div class="swiper-slide menu__card-wrapper">
 										<div class="menu__item-image">
-										<img src="./assets/menu/03.png" alt="">
+										<img src="./assets/menu/03.png" alt="donut">
 										</div>
 										
 										<div class="menu__card">
@@ -232,7 +234,7 @@
 											
 											<div class="swiper-slide menu__card-wrapper">
 												<div class="menu__item-image">
-												<img src="./assets/menu/04.png" alt="">
+												<img src="./assets/menu/04.png" alt="donut">
 												</div>
 												
 												<div class="menu__card">
@@ -272,7 +274,7 @@
 
 											<div class="swiper-slide menu__card-wrapper">
 													<div class="menu__item-image">
-													<img src="./assets/menu/05.png" alt="">
+													<img src="./assets/menu/05.png" alt="donut">
 													</div>
 													
 													<div class="menu__card">
@@ -313,7 +315,7 @@
 												
 												
 											</div>
-											<!-- <div class="swiper-pagination" style="bottom: -10px;"></div> -->
+
 					</div>
 				</div>
 			</section>
@@ -331,32 +333,7 @@
 
 					<div class="review__card">
 						<div class="review__card-top">
-							<img src="./assets/review/01.jpg" alt="" class="review__card-profile">
-
-							<div class="review__card-right">
-								<h3 class="review__card-name">
-									Rick Astley
-								</h3>
-
-								<div class="review__card-stars">
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-						</div>
-						<div class="review__card-bottom">
-							<blockquote>
-								Never gonna give up eating this donut shop's donut. It's so good.
-							</blockquote>
-						</div>
-					</div>
-
-					<div class="review__card">
-						<div class="review__card-top">
-							<img src="./assets/review/02.jpg" alt="" class="review__card-profile">
+							<img src="./assets/review/02.jpg" alt="profile" class="review__card-profile">
 
 							<div class="review__card-right">
 								<h3 class="review__card-name">
@@ -364,11 +341,11 @@
 								</h3>
 
 								<div class="review__card-stars">
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star"></i>
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
 								</div>
 							</div>
 						</div>
@@ -381,7 +358,7 @@
 
 					<div class="review__card">
 						<div class="review__card-top">
-							<img src="./assets/review/03.jpg" alt="" class="review__card-profile">
+							<img src="./assets/review/03.jpg" alt="profile" class="review__card-profile">
 
 							<div class="review__card-right">
 								<h3 class="review__card-name">
@@ -389,11 +366,11 @@
 								</h3>
 
 								<div class="review__card-stars">
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-inactive.png"alt="star">
 								</div>
 							</div>
 						</div>
@@ -406,25 +383,25 @@
 
 					<div class="review__card">
 						<div class="review__card-top">
-							<img src="./assets/review/01.jpg" alt="" class="review__card-profile">
+							<img src="./assets/review/04.jpg" alt="profile" class="review__card-profile">
 
 							<div class="review__card-right">
 								<h3 class="review__card-name">
-									Rick Astley
+									Dev Ed
 								</h3>
 
 								<div class="review__card-stars">
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star"></i>
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-inactive.png"alt="star">
 								</div>
 							</div>
 						</div>
 						<div class="review__card-bottom">
 							<blockquote>
-								It’s tough to say which doughnut is my favorite
+								Gorgeous dounts! Love' em.
 							</blockquote>
 						</div>
 					</div>
@@ -432,31 +409,57 @@
 
 					<div class="review__card">
 						<div class="review__card-top">
-							<img src="./assets/review/01.jpg" alt="" class="review__card-profile">
+							<img src="./assets/review/05.jpg" alt="profile" class="review__card-profile">
 
 							<div class="review__card-right">
 								<h3 class="review__card-name">
-									Rick Astley
+									Sakata Gintoki
 								</h3>
 
 								<div class="review__card-stars">
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star"></i>
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-inactive.png"alt="star">
+									<img src="./assets/star-inactive.png"alt="star">
 								</div>
 							</div>
 						</div>
 						<div class="review__card-bottom">
 							<blockquote>
-								It’s tough to say which doughnut is my favorite
+								Mind your sugar levels
 							</blockquote>
 						</div>
 					</div>
 					<div class="review__card">
 						<div class="review__card-top">
-							<img src="./assets/review/01.jpg" alt="" class="review__card-profile">
+							<img src="./assets/review/06.jpg" alt="profile" class="review__card-profile">
+
+							<div class="review__card-right">
+								<h3 class="review__card-name">
+									Micheal Scott
+								</h3>
+
+								<div class="review__card-stars">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-inactive.png"alt="star">
+								</div>
+							</div>
+						</div>
+						<div class="review__card-bottom">
+							<blockquote>
+								I’m an early bird and I’m a night owl so these donuts are the best for my appetite.
+							</blockquote>
+						</div>
+					</div>
+
+
+					<div class="review__card">
+						<div class="review__card-top">
+							<img src="./assets/review/01.jpg" alt="profile" class="review__card-profile">
 
 							<div class="review__card-right">
 								<h3 class="review__card-name">
@@ -464,21 +467,20 @@
 								</h3>
 
 								<div class="review__card-stars">
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star star_active"></i>
-									<i class="fa fa-star"></i>
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
+									<img src="./assets/star-active.png"alt="star">
 								</div>
 							</div>
 						</div>
 						<div class="review__card-bottom">
 							<blockquote>
-								It’s tough to say which doughnut is my favorite.
+								Never gonna give up eating these donuts.
 							</blockquote>
 						</div>
 					</div>
-
 				</div>
 			</section>
 
@@ -491,19 +493,21 @@
 				<div class="about__wrapper">
 
 					<div class="about__image">
-						<img src="./assets/about/about-donuts.jpg" alt="">
+						<img src="./assets/about/about-donuts-small.jpg" alt="high res donut image">
 					</div>
 
 					<div class="about__details">
 						<h2 class="about__heading">We love makin' donuts</h2>
 
 						<p class="about__text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste voluptatibus ipsa veritatis quisquam, similique a illum numquam, vel modi atque earum qui, nostrum vero facilis fugiat. Ipsa, dolorem veniam?
+							Doughnuts are usually deep fried from a flour dough, and typically either ring-shaped or a number of shapes without a hole, and often filled, but can also be ball-shaped ("doughnut holes"). Other types of batters can also be used, and various toppings and flavorings are used for different types, such as sugar, chocolate, or maple glazing. 
 						</p>
 						<p class="about__text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quisquam similique aperiam aspernatur voluptate ipsam nisi odio dolores corporis eveniet est repellat iure facilis fuga officiis ipsum, fugiat quae autem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas esse corrupti incidunt dolor voluptates possimus quae minima perferendis rerum modi id consequuntur officiis hic sequi illum neque, fugiat ullam?
+							Doughnuts may also include water, leavening, eggs, milk, sugar, oil, shortening, and natural or artificial flavors. The two most common types are the ring doughnut and the filled doughnut, which is injected with fruit preserves, cream, custard, or other sweet fillings. Alternatively, small pieces of dough are sometimes cooked as doughnut holes. Once fried, doughnuts may be glazed with a sugar icing, spread with icing or chocolate on top, or topped with powdered sugar, cinnamon, sprinkles or fruit.
 						</p>
-						<p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptas sapiente iusto dolores nesciunt, expedita quos repellat perferendis, consequatur delectus doloremque est odio nulla vero nostrum dolore sequi. Consectetur, expedita.</p>
+						<p class="about__text">
+							The earliest known recorded usage of the term dates to an 1808 short story describing a spread of "fire-cakes and dough-nuts". Washington Irving's reference to "doughnuts" in 1809 in his History of New York is more commonly cited as the first written recording of the term. Irving described "balls of sweetened dough, fried in hog's fat, and called doughnuts, or olykoeks."
+						</p>
 					</div>
 				</div>
 			</section>
@@ -514,7 +518,7 @@
 					Want some inbox love? 
 
 					<span>
-						<img src="./assets/send.svg" alt="">
+						<img src="./assets/send.svg" alt="sendicon">
 					</span>
 				</div>
 				<div class="subscribe__bottom">
@@ -572,6 +576,8 @@
 			</footer>
 
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+			<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+			<script src="./scripts/app.js"></script>
 	</body>
 </html>

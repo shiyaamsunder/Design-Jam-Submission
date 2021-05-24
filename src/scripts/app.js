@@ -9,11 +9,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 import './card';
 import './header';
+
 function openSideBar() {
 	backdrop.style.display = 'block';
 	sidebar.style.transition = 'all 250ms ease';
 	sidebar.style.transform = 'translateX(0)';
-	// gsap.to('.sidebar', { duration: 0.25, x: '0%', ease: 'linear' });
 }
 
 function closeSideBar() {

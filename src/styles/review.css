@@ -87,11 +87,8 @@
 	font-weight: var(--fw-regular);
 }
 
-.fa-star {
-	color: lightgray;
-}
-.star_active {
-	color: rgb(245, 207, 40);
+.review__card-right img {
+	width: 18px;
 }
 
 @media screen and (max-width: 768px) {
