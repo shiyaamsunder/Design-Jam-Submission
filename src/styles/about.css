@@ -1,0 +1,42 @@
+.about {
+	padding-top: 100px;
+}
+
+.about__wrapper {
+	margin-top: 40px;
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.about__image {
+	width: 40%;
+}
+
+.about__image img {
+	width: 100%;
+}
+
+.about__details {
+	padding: 40px;
+	flex: 1;
+	/* flex-shrink: 1; */
+}
+
+.about__details p {
+	line-height: 1.8;
+}
+
+@media screen and (max-width: 768px) {
+	.about__image {
+		width: 100%;
+	}
+	.about__wrapper {
+		flex-direction: column;
+		padding: 0;
+	}
+
+	.about__details {
+		padding: 10px;
+	}
+}

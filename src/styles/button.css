@@ -1,0 +1,35 @@
+.primary-btn {
+	width: 140px;
+	height: 45px;
+	color: rgb(255, 255, 255);
+	font-weight: var(--fw-semiBold);
+	background-image: linear-gradient(
+		45deg,
+		var(--color-btn-primary),
+		var(--color-btn-accent)
+	);
+	/* background-color: var(--color-btn-primary); */
+	font-size: var(--fs-base);
+	border-radius: 16px;
+	border: none;
+	transition: all 250ms ease;
+}
+
+.secondary-btn {
+	width: 140px;
+	height: 45px;
+	color: var(--color-btn-accent);
+	font-size: var(--fs-base);
+	border-radius: 16px;
+	border: 3px solid var(--color-btn-accent);
+	background-color: transparent;
+	transition: all 250ms ease;
+}
+
+.primary-btn:hover {
+	box-shadow: var(--shadow-btn);
+}
+
+.secondary-btn:hover {
+	box-shadow: var(--shadow-btn);
+}
