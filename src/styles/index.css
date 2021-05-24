@@ -32,7 +32,7 @@ body {
 	color: var(--color-text);
 
 	/* COLORS */
-	--color-primary: #fb5792;
+	--color-primary: #fb5793;
 	--color-accent: #ff8a48;
 	--color-text: #55484c;
 	--color-bg: #ffffff;
@@ -40,7 +40,7 @@ body {
 	--color-btn-primary: #fd4086;
 	--color-btn-accent: #f16c13;
 
-	--shadow-btn: 0px 4px 20px #ff688e66;
+	--shadow-btn: 0px 4px 20px rgba(255, 104, 142, 0.4);
 
 	--shadow-card: 2px 4px 10px #99999946;
 

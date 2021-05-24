@@ -22,7 +22,7 @@
 	place-content: center;
 	width: 80%;
 	margin: 0 auto;
-	gap: 1rem;
+	gap: 50px;
 }
 
 .review__cards-top {
@@ -37,9 +37,22 @@
 .review__cards-bottom {
 	display: flex;
 }
+
+.review__card-bottom > blockquote {
+	margin: 0;
+	/* font-size: var(--fs-base); */
+	font-weight: var(--fw-semiBold);
+}
+.review__card-bottom > blockquote::before {
+	content: open-quote;
+}
+
+.review__card-bottom > blockquote::after {
+	content: close-quote;
+}
 .review__card {
 	background-color: white;
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	padding: 16px;
 	border-radius: 16px;

@@ -4,7 +4,7 @@
 		rgba(255, 255, 255, 0.287),
 		#ffc9dc
 	);
-	height: auto;
+	height: 100vh;
 	padding: 40px 0px;
 	padding-top: 100px;
 	position: relative;
@@ -14,7 +14,7 @@
 	content: '';
 	position: absolute;
 	bottom: 0px;
-	left: 0px;
+	/* left: 0px; */
 	height: 500px;
 	width: 130px;
 	z-index: 0;
@@ -22,6 +22,7 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: bottom left;
+	animation: blobleft 1000ms ease-in;
 }
 
 .menu::after {
@@ -58,8 +59,8 @@
 	min-width: 300px;
 	height: 300px;
 	min-height: 200px;
-	background: #ffffff70;
-	backdrop-filter: blur(8px);
+	background: #ffffffb4;
+	/* backdrop-filter: blur(8px); */
 	border-radius: 16px;
 	padding: 1rem;
 	display: flex;
@@ -75,6 +76,16 @@
 	left: 0px;
 }
 
+.menu__card-top {
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.menu__card-description {
+	font-weight: var(--fw-semiBold);
+}
 .menu__card-bottom {
 	display: flex;
 	align-items: center;
@@ -92,6 +103,10 @@
 	font-size: var(--fs-h3);
 	color: var(--color-primary);
 	flex: 0.3;
+}
+
+.menu__card-price::before {
+	content: '\20b9';
 }
 
 .menu__card-amount {
