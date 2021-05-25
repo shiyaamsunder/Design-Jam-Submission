@@ -91,4 +91,12 @@
 		background-position: bottom left;
 		transform: rotateZ(0);
 	}
+
+	.landing__button {
+		margin-right: 0;
+	}
+
+	.landing__buttons {
+		justify-content: space-around;
+	}
 }
