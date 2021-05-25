@@ -73,6 +73,11 @@ const aboutTl = gsap.timeline({
 	},
 });
 
-aboutTl.from('.about__image', { opacity: 0, duration: 1 });
-aboutTl.from('.about__heading', { opacity: 0, duration: 1, y: -20 });
-aboutTl.from('.about__text', { opacity: 0, y: -10, stagger: 0.2, duration: 1 });
+aboutTl.from('.about__image', { opacity: 0, duration: 0.5 });
+aboutTl.from('.about__heading', { opacity: 0, duration: 0.5, y: -20 });
+aboutTl.from('.about__text', {
+	opacity: 0,
+	y: -10,
+	stagger: 0.2,
+	duration: 0.5,
+});
