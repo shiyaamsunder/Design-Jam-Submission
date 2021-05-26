@@ -108,7 +108,7 @@ section {
 }
 
 .parallax {
-	background-image: url('../assets/parallax/parallax-bg-2.png');
+	background-image: url('../assets/parallax/parallax-bg-2.jpg');
 	height: 40vh;
 	/* filter: blur(8px); */
 	background-attachment: fixed;

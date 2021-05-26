@@ -50,6 +50,12 @@ gsap.from('.landing__button', {
 	delay: 0.9,
 });
 
+gsap.to('.landing__hand', {
+	duration: 1,
+	left: '-180px',
+	delay: 1,
+});
+
 const tl = gsap.timeline({
 	scrollTrigger: {
 		trigger: '.review',
