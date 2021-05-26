@@ -5,6 +5,7 @@
 @import url('./review.css');
 @import url('./about.css');
 @import url('./footer.css');
+@import url('./404.css');
 
 * {
 	box-sizing: border-box;

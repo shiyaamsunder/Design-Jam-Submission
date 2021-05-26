@@ -1,7 +1,7 @@
 const burger = document.querySelector('.burger');
 const sidebar = document.querySelector('.sidebar');
 const backdrop = document.querySelector('.backdrop');
-const navlinks = document.querySelectorAll('.header__nav-link');
+const navlinks = document.querySelectorAll('.sidebar__link');
 
 const reviewCards = document.querySelectorAll('review__card');
 
