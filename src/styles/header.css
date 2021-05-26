@@ -99,6 +99,10 @@ header.active {
 	stroke: var(--color-text);
 } */
 
+.header__logo__img {
+	display: none;
+}
+
 /* MOBILE */
 @media screen and (max-width: 768px) {
 	.backdrop {
@@ -114,9 +118,16 @@ header.active {
 	}
 
 	.header__logo {
-		font-size: var(--fs-large);
+		/* font-size: var(--fs-large); */
+		display: none;
 	}
-	.header__right {
+
+	.header__logo__img {
+		display: block;
+		width: 38px;
+	}
+	.header__right,
+	.header__middle {
 		display: none;
 	}
 
