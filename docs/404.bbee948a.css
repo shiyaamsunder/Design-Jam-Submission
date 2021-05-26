@@ -1,0 +1,1 @@
+body{display:grid;place-content:center;width:100vw;height:100vh}.message__container{display:flex;flex-direction:column;align-items:center}.message__container img{width:500px}.message__container h1{font-weight:var(--fw-extraBold)}.message__container a{font-weight:var(--fw-semiBold);font-size:var(--fs-medium);color:var}
