@@ -81,6 +81,7 @@
 
 @media screen and (max-width: 768px) {
 	.landing {
+		height: 100%;
 		flex-direction: column;
 	}
 	.landing__image {
